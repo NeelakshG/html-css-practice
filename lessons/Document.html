@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://127.0.0.1:5500/lessons/lesson9.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Document_files/exercise9.css">
+  </head>
+  <body>
+    <div class="container" style="width: 100px; height: 100px; background-color: red"></div>
+
+    <!-- 9b -->
+
+    <div class="circle" style="
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        border-radius: 50%;
+      "></div>
+
+    <hr>
+
+    <div style="
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(150, 150, 150);
+        width: 300px;
+        padding-left: 15px;
+        padding-bottom: 20px;
+      ">
+      <p>Satisfied with our service?</p>
+      <button class="yes-btn" fdprocessedid="j9l4uo">yes</button>
+      <button class="no-btn" fdprocessedid="6v9yrs">no</button>
+    </div>
+
+    <hr>
+
+    <!-- 9d -->
+
+    <div class="youtube-box p-d" style="
+        background-color: rgb(33, 33, 33);
+        width: 360px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+      ">
+      <p class="youtube-text p-d" style="
+          color: white;
+          font-size: 24px;
+          font-weight: bold;
+          margin-bottom: 10px;
+        ">
+        Install Youtube Music
+      </p>
+      <p class="youtube-subtitle p-d" style="
+          font-family: Arial;
+          margin-top: 0;
+          margin-bottom: 0;
+          color: rgb(160, 160, 160);
+        ">
+        Add Youtube Music to your desktop for quick and easy access
+      </p>
+    </div>
+
+    <hr>
+    <!-- 9e  tweeting -->
+
+    <div class="exerciseE" style="
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgb(150, 150, 150);
+        width: 700px;
+      ">
+      <img class="cat" src="./Document_files/catImage.jpg" alt="">
+      <input style="border: none   vertical-align: middle;
+" type="text" class="text-box" placeholder="What&#39;s happening?
+        " fdprocessedid="nb8fod">
+
+      <button class="tweet-btn" fdprocessedid="dw9hb">Tweet</button>
+    </div>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+  <style>
+    .p-d {
+      font-family: Arial;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  </style>
+
+<span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body></html>

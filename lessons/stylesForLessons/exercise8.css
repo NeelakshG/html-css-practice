@@ -1,0 +1,113 @@
+.a-name,
+.a-Email {
+  display: block;
+  margin-top: 7px;
+}
+
+.b-text {
+  width: 200px;
+}
+.b-text,
+.b-no,
+.b-yes {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img-google {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+.second-textbar {
+  width: 100%;
+  border-radius: 24px;
+  border-width: 1px;
+  padding: 12px 20px;
+  max-width: 500px;
+  background-color: white;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  outline: none;
+  border: none;
+  display: block; /* you have to set it as block because textbar are considered inline so they don't take upp all that space*/
+  margin: 0 auto; /* centers horizontally */
+  margin-top: 10px;
+}
+
+/* 8d */
+
+.box {
+  padding: 12px 8px;
+  border-radius: 8px;
+  border-width: 1px;
+}
+
+.email {
+  display: block;
+  margin-top: 10px;
+  padding: 12px 8px;
+  width: 360px;
+  border-radius: 8px;
+  border-width: 1px;
+}
+
+.d {
+  display: inline-block;
+}
+.sign-up {
+  border-radius: 8px;
+  border-width: 1px;
+  margin-top: 10px;
+  padding: 12px 8px;
+  width: 380px;
+  cursor: pointer;
+  background-color: rgb(1, 166, 255);
+  color: white;
+  border: none;
+}
+
+.title {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.input-e {
+  display: block;
+  background-color: rgb(240, 240, 240);
+  border: none;
+  margin-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  width: 400px;
+}
+
+.destination-textbox {
+  margin-bottom: 35px;
+}
+
+.request-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+  margin-right: 20px;
+}
+
+.schedule-button {
+  background-color: rgb(240, 240, 240);
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-size: 16px;
+}

@@ -1,0 +1,220 @@
+<!-- lesson 5 has all to do with making text styles -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 5a: using the font Tahoma -->
+    <p class="tahoma-text">This is Tahoma Font</p>
+
+    <!-- 5b font = Aria -->
+    <p class="arial-text">Biggest Deals of the Year</p>
+    <p class="sales-text"><i>Sales end Tuesday</i></p>
+
+    <hr />
+
+    <!-- 5c font= Verdana -->
+    <p class="title">HTML CSS course</p>
+    <p class="moto">Beginner to Pro</p>
+
+    <p class="c-description">
+      In this course, we'll learn the skills you need to become a developer.
+    </p>
+
+    <button class="get-started">Get Started</button>
+
+    <hr />
+    <!-- 5e -->
+    <p class="new exercise-e">New</p>
+    <p class="title-e exercise-e">MacBook Pro</p>
+    <p class="subtitle exercise-e">Supercharged for pros.</p>
+    <p class="under-subtitle exercise-e">From $1999</p>
+    <button class="buy exercise-e">Buy</button>
+
+    <hr />
+
+    <!-- 5f -->
+
+    <p class="title-amount exercise-f">
+      1,049.61 <span class="title-currency exercise-f">USD</span>
+    </p>
+    <p class="rate exercise-f">+18.05 &#x28;1.75%&rpar;<span> </span>today</p>
+    <p class="subtitles-f exercise-f">
+      After hours 1,048.00
+      <span class="negative exercise-f">-1.61 &#x28;0.15%&rpar; </span>
+    </p>
+
+    <hr />
+    <!-- 5g -->
+
+    <p class="g-exercise g-title">
+      freeCodeCamp.org
+      <span class="g-exercise g-title-1">@freeCodeCamp 1h</span>
+    </p>
+    <p class="g-exercise g-subtitle">
+      As a web developer, you'll want to make your projects easy to use and
+      navigate around.
+    </p>
+    <p class="g-exercise g-final-subtitle">
+      Here <span class="g-exercise g-final-change">@chp_it</span> outlines the
+      top skills new developers should have.
+    </p>
+  </body>
+</html>
+
+<style>
+  /* 5g */
+  .g-exercise {
+    font-family: Arial;
+  }
+
+  .g-title {
+    font-weight: bold;
+  }
+
+  .g-title-1 {
+    color: grey;
+    font-weight: normal;
+  }
+
+  .g-subtitle {
+    width: 500px;
+  }
+
+  .g-final-change {
+    color: blueviolet;
+  }
+  /* 5f */
+
+  .exercise-f {
+    font-family: Arial;
+    margin-bottom: 0px;
+  }
+  .title-amount {
+    font-size: 40px;
+  }
+
+  .rate {
+    line-height: 0px;
+    margin-top: 15px;
+    color: green;
+  }
+
+  .subtitles-f {
+    color: gray;
+  }
+  .negative {
+    color: red;
+  }
+
+  .title-currency {
+    color: gray;
+    font-size: 17px;
+  }
+
+  /* 5a */
+  .tahoma-text {
+    font-family: Tahoma;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  /* 5b */
+
+  .arial-text {
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .sales-text {
+    font-family: Arial;
+    color: red;
+    line-height: 5px;
+    margin-top: 0px;
+    font-style: italic;
+  }
+
+  /* 5c */
+
+  .title {
+    font-family: Verdana;
+    font-weight: bold;
+    margin-bottom: 3px;
+    font-size: 18px;
+  }
+
+  .moto {
+    font-family: Verdana;
+    font-size: 11px;
+    color: rgb(100, 100, 100);
+    margin-top: 0px;
+    margin-bottom: 18px;
+  }
+
+  .c-description {
+    font-family: Verdana;
+    width: 300px;
+  }
+
+  .get-started {
+    font-family: Verdana;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 8px;
+    padding-left: 8px;
+    cursor: pointer;
+  }
+
+  /* part e */
+
+  .exercise-e {
+    font-family: Arial;
+    text-align: center;
+
+    margin-bottom: 0px;
+  }
+  .new {
+    color: red;
+    font-weight: bold;
+  }
+
+  .title-e {
+    margin-top: 10px;
+    line-height: 15px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .subtitle {
+    margin-top: 18px;
+    line-height: 15px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  .under-subtitle {
+    margin-top: 24px;
+    font-weight: none;
+  }
+
+  .buy {
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 7px 15px 7px;
+    cursor: pointer;
+  }
+</style>

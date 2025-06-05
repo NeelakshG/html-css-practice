@@ -1,0 +1,137 @@
+.img-google {
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+
+.card-1 {
+  text-align: center;
+}
+
+.google-button {
+  background-color: rgb(245, 245, 245);
+  font-size: 15px;
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 10px 14px;
+  border: none;
+}
+
+.second-textbar {
+  width: 100%;
+  border-radius: 24px;
+  border-width: 1px;
+  padding: 12px 20px;
+  max-width: 500px;
+  background-color: white;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  outline: none;
+  border: none;
+  display: block; /* you have to set it as block because textbar are considered inline so they don't take upp all that space*/
+  margin: 0 auto; /* centers horizontally */
+  margin-top: 10px;
+}
+
+.p-f {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.profile {
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.catImage-2 {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.title-text {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-bottom: 4px;
+  margin-top: 10px;
+}
+
+.subtitle-text {
+  color: rgb(100, 100, 100);
+  margin-left: 8px;
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+
+.add-btn {
+  background-color: rgb(24, 119, 242);
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-left: 8px;
+  margin-bottom: 10px;
+}
+
+/*  */
+
+.exerciseE {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
+  width: 450px;
+  border-radius: 6px;
+}
+
+.cat {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.text-box {
+  font-size: 18px;
+  border: none;
+  width: 300px;
+  vertical-align: middle;
+}
+
+.tweet-btn {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.add-btn {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
